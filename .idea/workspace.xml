@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6732118-9245-43ce-9b93-7b046196625e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/third/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/third/hw/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/third/hw/UserRepoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/third/ttd/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/third/ttd/UserRepository.java" afterDir="false" />
+    <list default="true" id="c6732118-9245-43ce-9b93-7b046196625e" name="Changes" comment="Homework done">
+      <change afterPath="$PROJECT_DIR$/libs/assertj-core-3.23.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/byte-buddy-1.12.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/byte-buddy-agent-1.12.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/junit-jupiter-api-5.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/junit-jupiter-params-5.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/junit-platform-commons-1.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/mockito-core-5.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/objenesis-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/book/InMemoryBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +45,30 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "onboarding.tips.debug.path": "/Users/kondratyev/Desktop/MyProjects/HomeworlUnitTests/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "/Users/kondratyev/Desktop/MyProjects/HomeworlUnitTests/src/main/java",
+    "onboarding.tips.debug.path": "/Users/kondratyev/Desktop/MyProjects/HomeworlUnitTests/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="BookServiceTest.testFindBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookServiceTest" />
+      <option name="METHOD_NAME" value="testFindBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HomeworlUnitTests" />
       <method v="2">
@@ -58,6 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookServiceTest.testFindBookById" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1696357728761</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework done">
+      <option name="closed" value="true" />
+      <created>1696359409118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696359409118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework done" />
   </component>
 </project>
